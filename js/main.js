@@ -2,7 +2,10 @@
 
 
 $(document).ready( function() {
-  $(".send").click( function() {
-    $(".conversation").append(" <a href='Scene2/Scene2.html'>Sup</a>");
+  $(".sendf").click( function() {
+    $(".convocontent").append(" <a href='Scene2/Scene2.html' class='her'>Sup</a>");
+  });
+  $(".sendm").click( function() {
+    $(".convocontent").append(" <a href='Scene2/Scene2.html' class='him'>Hi</a>");
   });
 });

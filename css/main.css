@@ -21,11 +21,17 @@ body {
   height: 450px;
   overflow: scroll;
 }
+.convohead {
+  background-color: blue;
+  color: white;
+  text-align: center;
+}
 .her {
   text-align: left;
 }
 .him {
   text-align: right;
+  margin-right: 0;
 }
 .male {
   background-color: lightblue;
