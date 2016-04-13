@@ -18,6 +18,11 @@ body {
   width: 25%;
   bottom: 0;
 }
+.female img {
+  width: 150px;
+  height: 450px;
+  margin: 5%;
+}
 .conversation {
   background-color: white;
   float: left;
@@ -58,6 +63,11 @@ body {
   float: right;
   width: 25%;
   bottom: 0;
+}
+.male img {
+  width: 150px;
+  height: 450px;
+  margin: 5%;
 }
 a:link {
   text-decoration: none;
