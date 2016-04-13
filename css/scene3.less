@@ -3,3 +3,35 @@
 body {
   background-color: gray;
 }
+
+div {
+  display: block;
+  margin-bottom: 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  // border: 3px solid red;  this was a test border to see what was going on with the div
+  height: 50%;
+  width: 100%;
+}
+
+#backdrop {
+  display: inline;
+  // z-index: 0;
+  margin: 0;
+  // float: right;
+  height: 100%;
+  position: absolute;
+  // changed position to absolute so the silhouettes could float on top
+}
+
+#walking {
+  display: inline;
+  // z-index: 1;
+  margin-left: -50%;
+  margin: 0;
+  // float: right;
+  height: 100%;
+  position: absolute;
+  // changed position to absolute so the silhouettes could float on top
+}
