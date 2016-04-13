@@ -8,6 +8,10 @@ body {
   height: 25%;
   vertical-align: text-top;
 }
+.map img {
+  height: 100%;
+  width: 100%;
+}
 .female {
   background-color: lightpink;
   float: left;
